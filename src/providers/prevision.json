@@ -1,0 +1,93 @@
+{
+    "response": {
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+    "conditions": 1
+    }
+      }
+    ,	"current_observation": {
+          "image": {
+          "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+          "title":"Weather Underground",
+          "link":"http://www.wunderground.com"
+          },
+          "display_location": {
+          "full":"Manama, Bahrain",
+          "city":"Manama",
+          "state":"13",
+          "state_name":"Bahrain",
+          "country":"BN",
+          "country_iso3166":"BH",
+          "zip":"00000",
+          "magic":"37",
+          "wmo":"41150",
+          "latitude":"26.21999931",
+          "longitude":"50.58000183",
+          "elevation":"4.9"
+          },
+          "observation_location": {
+          "full":"Manama, ",
+          "city":"Manama",
+          "state":"",
+          "country":"BH",
+          "country_iso3166":"BH",
+          "latitude":"26.27000046",
+          "longitude":"50.65000153",
+          "elevation":"7 ft"
+          },
+          "estimated": {
+          },
+          "station_id":"OBBI",
+          "observation_time":"Last Updated on January 15, 11:30 AM +03",
+          "observation_time_rfc822":"Mon, 15 Jan 2018 11:30:00 +0300",
+          "observation_epoch":"1516005000",
+          "local_time_rfc822":"Mon, 15 Jan 2018 11:34:26 +0300",
+          "local_epoch":"1516005266",
+          "local_tz_short":"+03",
+          "local_tz_long":"Asia/Bahrain",
+          "local_tz_offset":"+0300",
+          "weather":"Clear",
+          "temperature_string":"73 F (23 C)",
+          "temp_f":73,
+          "temp_c":23,
+          "relative_humidity":"27%",
+          "wind_string":"From the SSW at 5 MPH",
+          "wind_dir":"SSW",
+          "wind_degrees":200,
+          "wind_mph":5,
+          "wind_gust_mph":0,
+          "wind_kph":7,
+          "wind_gust_kph":0,
+          "pressure_mb":"1018",
+          "pressure_in":"30.06",
+          "pressure_trend":"-",
+          "dewpoint_string":"37 F (3 C)",
+          "dewpoint_f":37,
+          "dewpoint_c":3,
+          "heat_index_string":"NA",
+          "heat_index_f":"NA",
+          "heat_index_c":"NA",
+          "windchill_string":"NA",
+          "windchill_f":"NA",
+          "windchill_c":"NA",
+          "feelslike_string":"73 F (23 C)",
+          "feelslike_f":"73",
+          "feelslike_c":"23",
+          "visibility_mi":"N/A",
+          "visibility_km":"N/A",
+          "solarradiation":"--",
+          "UV":"-1","precip_1hr_string":"-9999.00 in (-9999.00 mm)",
+          "precip_1hr_in":"-9999.00",
+          "precip_1hr_metric":"--",
+          "precip_today_string":"0.00 in (0.0 mm)",
+          "precip_today_in":"0.00",
+          "precip_today_metric":"0.0",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "forecast_url":"http://www.wunderground.com/global/stations/41150.html",
+          "history_url":"http://www.wunderground.com/history/airport/OBBI/2018/1/15/DailyHistory.html",
+          "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=26.27000046,50.65000153",
+          "nowcast":""
+      }
+  }
