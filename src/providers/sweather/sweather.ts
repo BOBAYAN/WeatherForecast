@@ -2,7 +2,10 @@ import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 @Injectable()
+
+
 export class SweatherProvider {
+  
   url: string;
 apikey ='59d61e5d23ee4b65';
   constructor(public http: Http) {
@@ -10,6 +13,7 @@ apikey ='59d61e5d23ee4b65';
   }
 getWeather(city, state)
 {
-  return this.http.get(this.url + '/'+state +'/' +city +'.json').map(res => res.json());
+  return this.http.get(this.url + '/'+state +'/' +city +'.json')
+  .map(res => res.json());
 }
 }
