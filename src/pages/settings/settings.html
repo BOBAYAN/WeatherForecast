@@ -13,7 +13,7 @@
     <ion-row>
       <ion-col width-100>
         <ion-list>
-          <form (submit)='saveForm()'>
+          <form (submit)='saveForm(city, state)'>
             <ion-item>
               <ion-label fixed >   City  </ion-label>
               <ion-input [(ngModel)]='city'  name='city' type='text' ></ion-input>
